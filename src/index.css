@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&family=Triodion&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+@import "tailwindcss";
+.active{
+    border:#83B505 solid 1px ;
+    background: #c5e574;
+}
+select,input,textarea{
+    border: 1px solid #c5e574 ;
+    outline-color: #83B505;
+
+}
